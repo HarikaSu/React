@@ -1,0 +1,53 @@
+
+.item {
+  background-color: darkslategrey;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid lightblue;  
+}
+
+.item h2 {
+  font-size: 2rem;
+  color:lightgreen;  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.item1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.item1 li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.item1 a {
+  color: wheat;  
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.item1 a:hover {
+  color: red;  
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .item h2 {
+    font-size: 1.6rem;
+  }
+
+  .item1 {
+    text-align: center;
+  }
+
+  .item1 li {
+    display: block;
+    margin: 10px 0;
+  }
+}

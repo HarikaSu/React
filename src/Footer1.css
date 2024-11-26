@@ -1,0 +1,48 @@
+/* General Footer Styling */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid blueviolet;
+  }
+  
+  footer ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    font-size: 1rem; /* Default font size */
+    margin: 10px 0; /* Spacing between items */
+    line-height: 1.6; /* Line height for readability */
+  }
+  
+  footer ul li.sd {
+    color: #f0f0f0; /* Light gray text for items */
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li.sd:hover {
+    color: #00aaff; /* Highlight text on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    footer {
+      text-align: left; /* Align text for smaller screens */
+      padding: 20px 15px;
+    }
+  
+    footer ul li {
+      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    footer ul li {
+      font-size: 0.85rem; /* Further reduced size for very small screens */
+    }
+  }
+  

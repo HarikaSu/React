@@ -1,0 +1,32 @@
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  thead td {
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+    background-color: red;
+  }
+  
+  .m1, .m2, .m3 {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .m1 {
+    background-color: lightblue;
+  }
+  
+  .m2 {
+    background-color: lightgreen;
+  }
+  
+  .m3 {
+    background-color: lightpink;
+  }
+  

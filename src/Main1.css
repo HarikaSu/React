@@ -1,0 +1,240 @@
+/* Enable smooth scrolling */
+/* html {
+    scroll-behavior: smooth;
+  } */
+  
+  /* Navigation Menu */
+  /* .md {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .md1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .md1 li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .md1 li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .md1 li a:hover {
+    color: red; /* Blue on hover */
+  /* } */
+  
+  /* Styling for section headers */
+  /* h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+  .sd1, .sd2, .sd3, .sd4, .sd5 {
+    background-color: lightpink;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+   /* */
+  /* ul li {
+    margin: 5px 0;
+  } */
+   
+  
+  /* .sd1 a,
+  .sd2 a,
+  .sd3 a,
+  .sd4 a,
+  .sd5 a {
+    color:lightblue;
+    text-decoration: none;
+  }
+  
+  .sd1 a:hover,
+  .sd2 a:hover,
+  .sd3 a:hover,
+  .sd4 a:hover,
+  .sd5 a:hover {
+    color: red; 
+  }
+  
+
+  @media (max-width: 768px) {
+    
+    .md1 li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    /* Adjust section padding and font sizes */
+    /* .sd1, .sd2, .sd3, .sd4, .sd5 {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+   */ 
+
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Menu */
+.md {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.md1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.md1 li {
+  margin: 0 15px;
+}
+
+.md1 li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.md1 li a:hover {
+  color: lightblue;
+}
+
+/* Active link styles */
+.md1 li a.active {
+  color: red; /* Highlight color for the active section */
+  border-bottom: 2px solid red; /* Optional underline for the active link */
+}
+
+/* Styling for section headers */
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #444;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Section containers */
+.sd1, .sd2, .sd3, .sd4, .sd5 {
+  background-color: lightpink;
+  padding: 20px;
+  margin-top: 80px; /* Offset for fixed navbar */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Links within sections */
+.sd1 a,
+.sd2 a,
+.sd3 a,
+.sd4 a,
+.sd5 a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.sd1 a:hover,
+.sd2 a:hover,
+.sd3 a:hover,
+.sd4 a:hover,
+.sd5 a:hover {
+  color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .md1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .md1 li {
+    margin: 10px 0;
+  }
+
+  .sd1, .sd2, .sd3, .sd4, .sd5 {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Highlight effect on scroll (optional visual flair) */
+.sd1, .sd2, .sd3, .sd4, .sd5 {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.sd1:hover,
+.sd2:hover,
+.sd3:hover,
+.sd4:hover,
+.sd5:hover {
+  background-color: lightcoral;
+  transform: scale(1.02);
+}

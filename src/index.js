@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import FakesComp from './FakesComp';
 import reportWebVitals from './reportWebVitals';
+// import PortfolioComp from './PortfolioComp';
+import FunComp from './Menu/FunComp';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <TableComp/> */}
+    {/* <FakesComp/> */}
+    {/* <PropComp name="Harika"/> */}
+    <FunComp/>
+    {/* <ProfileCard name="Harika" city=""/> */}
   </React.StrictMode>
 );
 
