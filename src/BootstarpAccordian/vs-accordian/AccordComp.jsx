@@ -1,14 +1,13 @@
 import React from "react";
-// import Header from "./Header";
-// import Main from "./Main";
-// import Footer from "./Footer";
-import ProfileCard from "../Menu/ProfileCard";
-import Notifications from "../Menu/Notifications";
+// import AccordianceComp from "./vs-accordian/AccordianceComp";
+import BasicExample from "./AccordianceComp";
+
 const data = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     price: 109.95,
+
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "men's clothing",
@@ -212,24 +211,16 @@ const data = [
     rating: { rate: 3.6, count: 145 },
   },
 ];
-function FunCom() {
+function AccordComp() {
+  
   return (
-    <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",alignItems:"center"}}>
-      {/* <Header/>
-            <Main/>
-            <Footer/> */}
-      {
-        data.map((a,b)=>{return(
-            <ProfileCard style={{height:""}}
-        title={a.title}
-        desc={a.description}
-        info={a.category}
-        img={a.image}
-      />
-        )})
-      }
-      <Notifications type="shared" name="Harika" />
+    <div>
+      {data.map((a) => {
+        return <BasicExample title={a.title} info={a.description} image={a.image} />
+        // return <AccordianceComp title={a.title} info={a.description} />;
+      })}
     </div>
   );
 }
-export default FunCom;
+
+export default AccordComp;
