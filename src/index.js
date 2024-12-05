@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import FakesComp from './FakesComp';
 import reportWebVitals from './reportWebVitals';
+// import LifeCycle from './LifeCycle/LifeCycle';
+import Updating from './LifeCycle/Updating';
+// import FuncLifeCycle from "./ComponentCond/FuncLifeCycle"
+// import FunctionComp from './FunctionComp';
+// import Toggle from './ToggleSwitch/Toggle';
 // import PortfolioComp from './PortfolioComp';
 // import FunComp from './Menu/FunComp';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +17,11 @@ import reportWebVitals from './reportWebVitals';
 // import RenderingComp from "../src/Conditional/RenderingComp"
 // import Sample from "./Sample"
 // import Parent from "./ComponentCond/Parent"
-import Counter from "../src/ComponentCond/Counter"
+// import Counter from "../src/ComponentCond/Counter"
+// import SampleForm from './SampleForm/SampleForm';
+// import Todo1 from './Todo/Todo1';
+// import Port from "./Portfolioo/Port"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +39,15 @@ root.render(
     {/* <Parent/> */}
     {/* <Sample/> */}
     {/* <PortfolioComp/> */}
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <Toggle/> */}
+    {/* <SampleForm/> */}
+    {/* <Port/> */}
+    {/* <Todo1/> */}
+    {/* <LifeCycle/> */}
+    <Updating/>
+    {/* <FunctionComp/> */}
+    {/* <FuncLifeCycle/> */}
   </React.StrictMode>
 );
 

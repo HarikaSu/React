@@ -1,0 +1,15 @@
+.switchon{
+    background-color: red;
+}
+.switchoff{
+    background-color: green;
+}
+.turnon{
+    color:blue;
+    font-family:cursive
+    
+}
+.turnoff{
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

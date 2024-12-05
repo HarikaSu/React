@@ -133,7 +133,7 @@ const Main1 = () => {
               href="#skills"
               className={activeSection === "skills" ? "active" : ""}
             >
-              Skills
+              Skills   
             </a>
           </li>
           <li>
