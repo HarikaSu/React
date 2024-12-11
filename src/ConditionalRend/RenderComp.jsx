@@ -1,5 +1,5 @@
 import React from "react";
-import RenderingComp from "../Conditional/RenderingComp"
+import RenderingComp from "./RenderingComp"
 function Condition(){
     return(
         <div>
