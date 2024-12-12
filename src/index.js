@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import App from "./App";
-// import FakesComp from './FakesComp';
+import Root from './Routing/Root';
 import reportWebVitals from './reportWebVitals';
 // import ParentComp from '../src/ParentComp/Index';
-
+// import FakesComp from './FakesComp';
 // import LifeCycle from './LifeCycle/LifeCycle';
 // import Updating from './LifeCycle/Updating';
 // import Count from "./FunCycle/FunCycle";
-import Calculator from './FunCycle/FunCycle';
+// import Calculator from './FunCycle/FunCycle';
 // import FuncLifeCycle from "./ComponentCond/FuncLifeCycle"
 // import FunctionComp from './FunctionComp';
 // import Toggle from './ToggleSwitch/Toggle';
@@ -18,7 +18,7 @@ import Calculator from './FunCycle/FunCycle';
 // import TableComp from "./TableComp";
 // import FormComp from "../src/LifeCycle/FormComp";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-// import AccordComp from "../src/BootstarpAccordian/vs-accordian/AccordianceComp"
+// import AccordComp from "../src/BootstarpAccordian/vs-accordian/AccordianceComp";
 // import AccordComp from '../src/BootstarpAccordian/vs-accordian/AccordComp';
 // import Render from "./ConditionalRend/RenderComp";
 // import RenderingComp from "./ConditionalRend/RenderingComp";
@@ -34,6 +34,7 @@ import Calculator from './FunCycle/FunCycle';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Root/>
     {/* <App/> */}
     {/* <TableComp/> */}
     {/* <Count/> */}
@@ -57,7 +58,7 @@ root.render(
     {/* <Updating/> */}
     {/* <FunctionComp/> */}
     {/* <FuncLifeCycle/> */}
-    <Calculator/>
+    {/* <Calculator/> */}
     {/* <FormComp/> */}
     {/* <ParentComp/> */}
     {/* <FakesComp/> */}

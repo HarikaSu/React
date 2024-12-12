@@ -21,17 +21,18 @@
 //     </div>
 //   );
 // }
+// export default App;
 
-// export default App;z
 // import React, { Component } from 'react';
 // import './App.css';
 // export default class App extends Component {
 //   render() {
 //     return (
-//       <div class="m1">
+//       <div className="m1">
 //         <h2>hello welcome</h2>
 //         <p>{2+2}</p>
 //       </div>
 //     );
 //   }
 // }
+// export default App;
