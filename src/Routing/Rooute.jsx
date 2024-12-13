@@ -5,9 +5,9 @@ import Task2 from "./Task2";
 import Task3 from "./Task3";
 import Task4 from "./Task4";
 import PageNotFound from "./PageNotFound";
-import "./Root.css"
+import "./Rooute.css"
 
-function Root() {
+function Rooute() {
   return (
     
       <Router>
@@ -28,4 +28,4 @@ function Root() {
     
   );
 }
-export default Root;
+export default Rooute;

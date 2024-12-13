@@ -1,67 +1,70 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import App from "./App";
-import Root from './Routing/Root';
+import './index.css';
+import App from "./App";
+// import Parent from './ComponentCond/Parent';
 import reportWebVitals from './reportWebVitals';
-// import ParentComp from '../src/ParentComp/Index';
-// import FakesComp from './FakesComp';
-// import LifeCycle from './LifeCycle/LifeCycle';
-// import Updating from './LifeCycle/Updating';
-// import Count from "./FunCycle/FunCycle";
-// import Calculator from './FunCycle/FunCycle';
-// import FuncLifeCycle from "./ComponentCond/FuncLifeCycle"
-// import FunctionComp from './FunctionComp';
-// import Toggle from './ToggleSwitch/Toggle';
-// import PortfolioComp from './PortfolioComp';
-// import FunComp from './Menu/FunComp';
-// import TableComp from "./TableComp";
-// import FormComp from "../src/LifeCycle/FormComp";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+// import UseEfect from './UseEffect/UseEffect';
+import Rooute from './Routing/Rooute';
+import ParentComp from '../src/ParentComp/Index';
+import FakesComp from './FakesComp';
+import LifeCycle from './LifeCycle/LifeCycle';
+import Updating from './LifeCycle/Updating';
+import Count from "./FunCycle/FunCycle";
+import Calculator from './FunCycle/FunCycle';
+import FuncLifeCycle from "./ComponentCond/FuncLifeCycle"
+import FunctionComp from './FunctionComp';
+import Toggle from './ToggleSwitch/Toggle';
+import PortfolioComp from './PortfolioComp';
+import FunComp from './Menu/FunComp';
+import TableComp from "./TableComp";
+import FormComp from "../src/LifeCycle/FormComp";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import AccordComp from "../src/BootstarpAccordian/vs-accordian/AccordianceComp";
-// import AccordComp from '../src/BootstarpAccordian/vs-accordian/AccordComp';
-// import Render from "./ConditionalRend/RenderComp";
-// import RenderingComp from "./ConditionalRend/RenderingComp";
-// import Sample from "./Sample";
+import AccordComp from '../src/BootstarpAccordian/vs-accordian/AccordComp';
+import Render from "./ConditionalRend/RenderComp";
+import RenderingComp from "./ConditionalRend/RenderingComp";
+import Sample from "./Sample";
 // import Parent from "./ComponentCond/Parent";
-// import Counter from "../src/ComponentCond/Counter";
-// import SampleForm from './SampleForm/SampleForm';
-// import Todo1 from './Todo/Todo1';
-// import Port from "./Portfolioo/Port";
-// import ProfileCard from "../src/Menu/ProfileCard";
+import Counter from "../src/ComponentCond/Counter";
+import SampleForm from './SampleForm/SampleForm';
+import Todo1 from './Todo/Todo1';
+import Port from "./Portfolioo/Port";
+import ProfileCard from "../src/Menu/ProfileCard";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Root/>
-    {/* <App/> */}
-    {/* <TableComp/> */}
-    {/* <Count/> */}
-    {/* <FakesComp/> */}
+    <Rooute/>
+    {/* <UseEfect/> */}
+    <App/>
+    <TableComp/>
+    <Count/>
+    <FakesComp/>
     {/* <PropComp name="Harika"/> */}
-    {/* <FunComp/> */}
-    {/* <ProfileCard name="Harika" city=""/> */}
+    <FunComp/>
+    <ProfileCard name="Harika" city=""/>
+    <AccordComp/>
     {/* <AccordComp/> */}
-    {/* <AccordComp/> */}
-    {/* <Render/> */}
-    {/* <RenderingComp/> */}
+    <Render/>
+    <RenderingComp/>
     {/* <Parent/> */}
-    {/* <Sample/> */}
-    {/* <PortfolioComp/> */}
-    {/* <Counter/> */}
-    {/* <Toggle/> */}
-    {/* <SampleForm/> */}
-    {/* <Port/> */}
-    {/* <Todo1/> */}
-    {/* <LifeCycle/> */}
-    {/* <Updating/> */}
-    {/* <FunctionComp/> */}
-    {/* <FuncLifeCycle/> */}
-    {/* <Calculator/> */}
-    {/* <FormComp/> */}
-    {/* <ParentComp/> */}
-    {/* <FakesComp/> */}
+    <Sample/>
+    <PortfolioComp/>
+    <Counter/>
+    <Toggle/>
+    <SampleForm/>
+    <Port/>
+    <Todo1/>
+    <LifeCycle/>
+    <Updating/>
+    <FunctionComp/>
+    <FuncLifeCycle/>
+    <Calculator/>
+    <FormComp/>
+    <ParentComp/>
+    <FakesComp/>
   </React.StrictMode>
 );
 
