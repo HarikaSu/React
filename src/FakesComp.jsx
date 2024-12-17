@@ -226,7 +226,7 @@ function Main() {
             backgroundColor: "orange",
             display: "flex",
             flexDirection: "column",
-            width: "245px",
+            width: "280px",
             padding: "20px",
             borderRadius: "15px",
           }}
