@@ -1,57 +1,60 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from "./App";
-// import Parent from './ComponentCond/Parent';
 import reportWebVitals from './reportWebVitals';
-// import UseEfect from './UseEffect/UseEffect';
-import Rooute from './Routing/Rooute';
-import ParentComp from '../src/ParentComp/Index';
-import FakesComp from './FakesComp';
-import LifeCycle from './LifeCycle/LifeCycle';
-import Updating from './LifeCycle/Updating';
-import Count from "./FunCycle/FunCycle";
-import Calculator from './FunCycle/FunCycle';
-import FuncLifeCycle from "./ComponentCond/FuncLifeCycle"
-import FunctionComp from './FunctionComp';
-import Toggle from './ToggleSwitch/Toggle';
-import PortfolioComp from './PortfolioComp';
-import FunComp from './Menu/FunComp';
-import TableComp from "./TableComp";
-import FormComp from "../src/LifeCycle/FormComp";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import AccordComp from "../src/BootstarpAccordian/vs-accordian/AccordianceComp";
+
+// import App from "./App";
+import PortfolioComp from './PortfolioComp';
+import TableComp from "./TableComp";
+import Count from "./FunCycle/FunCycle";
+import FakesComp from './FakesComp';
+// import PropComp from "../src/PropComp"
+import FunComp from './Menu/FunComp';
+import ProfileCard from "../src/Menu/ProfileCard";
 import AccordComp from '../src/BootstarpAccordian/vs-accordian/AccordComp';
 import Render from "./ConditionalRend/RenderComp";
 import RenderingComp from "./ConditionalRend/RenderingComp";
+// // import Parent from './ComponentCond/Parent';
 import Sample from "./Sample";
-// import Parent from "./ComponentCond/Parent";
 import Counter from "../src/ComponentCond/Counter";
-import SampleForm from './SampleForm/SampleForm';
-import Todo1 from './Todo/Todo1';
+import Toggle from './ToggleSwitch/Toggle';
+import SampleForm from "../src/SampleForm/SampleForm";
 import Port from "./Portfolioo/Port";
-import ProfileCard from "../src/Menu/ProfileCard";
+import Todo1 from './Todo/Todo1';
+import LifeCycle from './LifeCycle/LifeCycle';
+import Updating from './LifeCycle/Updating';
+import FunctionComp from './FunctionComp';
+import FuncLifeCycle from "./ComponentCond/FuncLifeCycle";
+import Calculator from './FunCycle/FunCycle';
+import FormComp from "../src/LifeCycle/FormComp";
+import ParentComp from '../src/ParentComp/Index';
+import Rooute from './Routing/Rooute';
+// import UseEfect from './UseEffect/UseEffect';
+import Routee from './dynamicRouting/Routee';
+
+
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Rooute/>
-    {/* <UseEfect/> */}
-    <App/>
+    {/* <App/> */}
+    <PortfolioComp/>
     <TableComp/>
-    <Count/>
+    <Count/> 
     <FakesComp/>
     {/* <PropComp name="Harika"/> */}
-    <FunComp/>
+    <FunComp/> 
     <ProfileCard name="Harika" city=""/>
     <AccordComp/>
-    {/* <AccordComp/> */}
     <Render/>
-    <RenderingComp/>
+    <RenderingComp/> 
     {/* <Parent/> */}
     <Sample/>
-    <PortfolioComp/>
     <Counter/>
     <Toggle/>
     <SampleForm/>
@@ -64,7 +67,11 @@ root.render(
     <Calculator/>
     <FormComp/>
     <ParentComp/>
-    <FakesComp/>
+    <Rooute/> 
+    {/* <UseEfect/>  */}
+    <Routee/>
+    
+     
   </React.StrictMode>
 );
 
