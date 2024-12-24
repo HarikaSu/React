@@ -13,8 +13,8 @@ function FormComp(){
         const {name,value}=e.target;
         setFormData((a)=>{
             return{
-                ...a,
-                [name]:value,
+                ...a, 
+                [name]:value,   
             };
         });
         

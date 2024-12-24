@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+// // import './App.css';
 
 // function App() {
 //   return (
@@ -36,3 +36,16 @@
 //   }
 // }
 // export default App;
+import React from "react";
+// import ParentComp from "../src/ContextApi/ParentComp";
+import CircleComp from "../src/Circle/CircleComp"
+
+export default function App() {
+  return (
+    <div
+      
+    >
+      <CircleComp/>
+    </div>
+  );
+}
